@@ -1,0 +1,57 @@
+/* id selector  */
+#para{
+    color: pink;
+}
+/* class selector  */
+.para{
+    font: italic;
+}
+/* child selector  */
+ul>li{
+    color: red;
+}
+/* Adjacent siblings selectors  */
+h1+p{
+    color: beige;
+}
+/* general siblings selectors  */
+h1~p{
+    font: italic;
+}
+/* hover  */
+a:hover{
+    color: brown;
+}
+/* active  */
+button:active{
+    color: pink;
+}
+/* visited  */
+a:visited{
+    color: blueviolet;
+}
+/* first line  */
+p::first-line{
+    font: bold;
+}
+/* first letter  */
+p::first-letter{
+    font-size: x-large;
+}
+/* before  */
+p::before{
+    content: hi;
+}
+/* after  */
+p::after{
+    content: bye;
+}
+/* attribute exist selectors  */
+option[disabled]{
+    color:pink;
+}
+/* attribute controls selectors  */
+[class*btn]{
+    color:hotpink;
+}
+
